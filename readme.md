@@ -7,8 +7,8 @@ Everything is simulation-first:
 
 ```
 
-rtl/uart\_echo.v            – parameterised RTL (50 MHz, 115 200 baud default)
-sim/tests/test\_uart\_echo.py – cocotb testbench (optional verbose log)
+rtl/uart_echo.v            – parameterised RTL (50 MHz, 115 200 baud default)
+sim/tests/test_uart_echo.py – cocotb testbench (optional verbose log)
 sim/tests/Makefile          – one-line build & run
 
 ````
