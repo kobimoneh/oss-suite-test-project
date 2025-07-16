@@ -116,25 +116,3 @@ make WAVEFORM=VCD
 * Waits for echo and asserts equality.
 * `VERBOSE=1` prints lines like:
   `sent: 0x55  received: 0x55  OK`
-
----
-
-## 6  `.gitignore`
-
-`.gitignore` excludes `sim_build/`, waveforms (`*.fst`/`*.vcd`), objects, etc.,
-so only source files are tracked.
-
----
-
-## 7  Extending
-
-* Different baud/clock — change parameters in RTL and `BIT_TIME_NS` in TB.
-* Add parity, FIFOs, flow-control; extend tests.
-* Drop the RTL into an FPGA and reuse the cocotb test as a golden reference.
-
-Happy simulating!
-
-```
-
-::contentReference[oaicite:0]{index=0}
-```
