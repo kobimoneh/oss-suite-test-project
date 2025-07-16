@@ -64,9 +64,9 @@ cd uart_echo/sim/tests
 # Fastest run (Verilator, silent)
 make
 
-# Waveform (FST) only
+# Waveform (vcd) only
 make waves
-gtkwave sim_build/uart_echo.fst &
+gtkwave dump.vcd &
 
 # Verbose log of every echo
 make verbose
