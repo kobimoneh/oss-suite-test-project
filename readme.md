@@ -1,4 +1,4 @@
-```markdown
+
 # UART-Echo (Verilog + cocotb)
 
 A minimal UART transceiver that **echos every byte it receives**  
