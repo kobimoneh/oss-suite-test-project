@@ -1,0 +1,33 @@
+# ───────── build & sim artefacts ─────────
+# cocotb / Verilator / Icarus temp dirs
+**/sim_build/
+
+# Compiled models / objects
+*.o
+*.d
+*.so
+*.vvp
+*.vpi
+Vtop*            # Verilator executable + support files
+
+# Waveforms
+*.fst
+*.vcd
+*.lxt
+*.vpd
+
+# cocotb regression output
+results.xml
+*.log
+
+# ───────── Python noise ─────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# ───────── Editors & tooling ─────────
+.vscode/
+.idea/
+*.swp
+*~
